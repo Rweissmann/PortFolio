@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    align-items: left;
+    text-align: right;
+}
+
+head{
+    width: 600px;
+    background-color: skyblue;
+    align-items: left;
+    text-align: right;
+    position: sticky;
+}
+
+
+body{
+    width: 100%;
+    background-color: rgba(216,238,231,85%);
+    color:black;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 15px;
+}
+
+header nav div{
+    width: 100%;
+    text-align: center;
+    position: sticky;
+}
+
+header a {
+    color:black;
+    margin:4px;
+    font-size:14px;    
+}
+
+header a:hover{
+    color:rgb(245, 161, 4);
+}
+
+.boton1{
+    border-radius: 15px;
+    background-color: wheat ;
+    padding: 5px;
+    margin: 25px, 15px;
+    color: black;
+    display: inline-block;
+}
+
+#nav1 #nav2 {
+    border-radius: 15px;
+    box-shadow: 11px, 10px, 30px, -11px, black;
+    width: 600px;
+    color: rgb(0,0,255);
+    background-color: rgba(180,242,221);
+    margin:15px, auto;
+    padding: 8px;
+    text-align: right;
+    align-items: left;
+    position: sticky;
+    top:0;
+    display: inline-block;
+}
+
+main{
+    margin:100px 20%;/*100 px top/bottom  20% left/righ  */
+}
+
+header a:hover {
+    color: rgb(245, 161, 4);
+}
+
+#perfil{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#Presentacion{
+    width: 600px;
+    font-size: 15px;
+}
+
+#Presentacion{
+    font-size: 24px;
+    text-align: justify;
+}
+
+#Foto a p {
+    font-size: 18 px;
+    background-color: skyblue;
+    font-weight: bold;
+    width: 600px;
+    display:inline-block;
+}
+
+#Foto a img{
+    width: 100px;
+}
+
+#Disponible{
+    width: 250px;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    padding: 15px;
+    animation: animate__animated animate__bounce linear 300ms;
+}
+
+#Disponible:hover{
+    font-weight: bold;
+    color: black;
+    background-color:rgb(241, 18, 18);
+    text-align: center;
+    display: inline-block;
+}
+
+#div2{
+    width:600 px;
+    align-items:center;
+    display:inline-block;
+}
+
+#div1{
+    display:inline-flex;
+    text-align: right;
+    align-items:center;    
+    column-gap:20px ;
+}
+
+#div1 > a {
+    margin-left: 15px;
+    border: 1px solid green;
+}
+
+h1{
+    margin:15px, 0px ;
+    font-size: 28px;
+    font-weight:600 ;
+}
+
+#div2{
+    display:inline-flex;
+    text-align: right;
+    align-items:center;    
+    column-gap:20px ;
+}
+
+#Contacto{
+    width: 300px;
+    display:inline-block;
+}
+
+#Enlaces{
+    border-radius: 15px;
+    background-color: aqua;
+    padding: 5px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+}
+
+
+nav, nav1, nav2 {
+    text-align: center;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 10px 5px 8px rgb(166, 239, 244);
+    background-color: rgb(141, 244, 209);
+    margin: 15px auto;
+    padding: 8px;
+    display:inline-block; 
+}
+
+.boton1 {
+    display:inline-block; 
+    background-color:skyblue;
+    border-radius: 15px;
+    margin: 10px, 10px; 
+}
+
+.boton2 {
+    display:inline-block; 
+    background-color:skyblue;
+    align-items: center;
+    justify-content: left;
+    border-radius: 15px;
+    color:black
+    margin 10px, 10px 
+}
+
+.boton1:hover{
+    font-weight: bold;
+    font-weight: 600;
+    color: black;
+    background-color:rgb(241, 18, 18);
+    align-items: center;
+    justify-content: left;
+    display: inline-block;
+}
+
+.boton2:hover{
+    color: black;
+    background-color:blue;
+    font-weight: 600;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    display: inline-block;
+}
+
+#BlSpResalta{
+    color:blue;
+    font-weight:bold;
+    font-size: 20px
+} 
